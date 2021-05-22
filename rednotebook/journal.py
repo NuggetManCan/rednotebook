@@ -27,6 +27,8 @@ import time
 
 
 # Use basic stdout logging before we can initialize logging correctly.
+from rednotebook.info import _
+
 logging.basicConfig(
     level=logging.DEBUG, format="%(levelname)-8s %(message)s", stream=sys.stdout
 )
